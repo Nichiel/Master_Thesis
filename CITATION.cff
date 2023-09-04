@@ -1,4 +1,3 @@
-
 @article{DBLP:journals/corr/abs-1806-10574,
   author       = {Chaofan Chen and
                   Oscar Li and
@@ -15,21 +14,4 @@
   timestamp    = {Mon, 13 Aug 2018 16:47:37 +0200},
   biburl       = {https://dblp.org/rec/journals/corr/abs-1806-10574.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
-}
-
-@misc{ghorbani2019automatic,
-      title={Towards Automatic Concept-based Explanations}, 
-      author={Amirata Ghorbani and James Wexler and James Zou and Been Kim},
-      year={2019},
-      eprint={1902.03129},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
-}
-@misc{kim2018interpretability,
-      title={Interpretability Beyond Feature Attribution: Quantitative Testing with Concept Activation Vectors (TCAV)}, 
-      author={Been Kim and Martin Wattenberg and Justin Gilmer and Carrie Cai and James Wexler and Fernanda Viegas and Rory Sayres},
-      year={2018},
-      eprint={1711.11279},
-      archivePrefix={arXiv},
-      primaryClass={stat.ML}
 }
