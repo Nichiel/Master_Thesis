@@ -1,5 +1,5 @@
 # Master_Thesis
-Udostępniono kod z repozytorium twócó metody ProtoPNet
+Udostępniono kod z repozytorium twóców metody ProtoPNet
 @article{DBLP:journals/corr/abs-1806-10574,
   author       = {Chaofan Chen and
                   Oscar Li and
