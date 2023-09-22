@@ -29,3 +29,13 @@ RISE method
   year = {2018}
 }
 ```
+modified ACE method
+```
+@inproceedings{ghorbani2019towards,
+  title={Towards automatic concept-based explanations},
+  author={Ghorbani, Amirata and Wexler, James and Zou, James Y and Kim, Been},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={9273--9282},
+  year={2019}
+}
+```
