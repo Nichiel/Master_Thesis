@@ -1,5 +1,7 @@
 # Master_Thesis
+
 Udostępniono kod z repozytorium twóców metody ProtoPNet
+'''
 @article{DBLP:journals/corr/abs-1806-10574,
   author       = {Chaofan Chen and
                   Oscar Li and
@@ -17,3 +19,4 @@ Udostępniono kod z repozytorium twóców metody ProtoPNet
   biburl       = {https://dblp.org/rec/journals/corr/abs-1806-10574.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
+'''
