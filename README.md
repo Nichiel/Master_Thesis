@@ -1,6 +1,6 @@
 # Master_Thesis
 
-Udostępniono kod z repozytorium twóców metody ProtoPNet
+In this repository, I have shared the code from the repository of the ProtoPNet method
 ```
 @article{DBLP:journals/corr/abs-1806-10574,
   author       = {Chaofan Chen and
@@ -18,5 +18,14 @@ Udostępniono kod z repozytorium twóców metody ProtoPNet
   timestamp    = {Mon, 13 Aug 2018 16:47:37 +0200},
   biburl       = {https://dblp.org/rec/journals/corr/abs-1806-10574.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+RISE method
+```
+@inproceedings{Petsiuk2018rise,
+  title = {RISE: Randomized Input Sampling for Explanation of Black-box Models},
+  author = {Vitali Petsiuk and Abir Das and Kate Saenko},
+  booktitle = {Proceedings of the British Machine Vision Conference (BMVC)},
+  year = {2018}
 }
 ```
