@@ -30,9 +30,7 @@ def return_animals_dict():
 
 def ranking_ut(data, animals_dict):
     metric_dict = {name : [] for name in animals_name}
-
     data_metrics = data[[name + "_2" for name in animals_name]]
-
     data_dict = data_metrics.to_dict('list')
     keys = list(data_dict.keys())
 
@@ -50,13 +48,7 @@ def ranking_ut(data, animals_dict):
                 if option in str(row[key]):
                     metric_dict[name].append("Protopnet")
 
-
-
-
-
     metric_ranking = {name : [] for name in animals_name}
-    # # print(krokodyl_list)
-    # # make statistic for krokodyl_list
     for key, l in metric_dict.items():
         temp_dict = {"ACE": 0, "RISE": 0, "Protopnet": 0}
         for ex in l:
@@ -82,10 +74,7 @@ def return_methods_ranking(metric_ranking):
 
 def ref_metric_ranking(data, animals_dict):
     metric_dict = {name : [] for name in animals_name}
-
-    #drop column without _2
     data_metrics = data[[name + "_2" for name in animals_name]]
-
     data_dict = data_metrics.to_dict('list')
     keys = list(data_dict.keys())
 
@@ -103,13 +92,7 @@ def ref_metric_ranking(data, animals_dict):
                 if option in str(row[key]):
                     metric_dict[name].append("Protopnet")
 
-
-
-
-
     metric_ranking = {name : [] for name in animals_name}
-    # # print(krokodyl_list)
-    # # make statistic for krokodyl_list
     for key, l in metric_dict.items():
         temp_dict = {"ACE": 0, "RISE": 0, "Protopnet": 0}
         for ex in l:
@@ -119,7 +102,6 @@ def ref_metric_ranking(data, animals_dict):
                 temp_dict["RISE"] += 1
             elif ex == "Protopnet":
                 temp_dict["Protopnet"] += 1
-
         metric_ranking[key] = temp_dict
 
     return metric_ranking
@@ -131,7 +113,6 @@ def count_metric_ranking(data, animals_dict, cecha, warunek):
     columns = [name + "_2" for name in animals_name]
     columns.append(cecha)
     data_metrics = data[columns]
-
     data_dict = data_metrics.to_dict('list')
     keys = list(data_dict.keys())
 
@@ -150,13 +131,7 @@ def count_metric_ranking(data, animals_dict, cecha, warunek):
                     if option in str(row[key]):
                         metric_dict[name].append("Protopnet")
 
-    # print(metric_dict)
-
-
-
     metric_ranking = {name : [] for name in animals_name}
-    # # print(krokodyl_list)
-    # # make statistic for krokodyl_list
     for key, l in metric_dict.items():
         temp_dict = {"ACE": 0, "RISE": 0, "Protopnet": 0}
         for ex in l:
@@ -169,7 +144,6 @@ def count_metric_ranking(data, animals_dict, cecha, warunek):
 
         metric_ranking[key] = temp_dict
 
-    # print(metric_ranking)
     return metric_ranking
 
 def count_metric_ranking_two(data, animals_dict, cecha, warunek, cecha2, warunek2):
@@ -179,7 +153,6 @@ def count_metric_ranking_two(data, animals_dict, cecha, warunek, cecha2, warunek
     columns = [name + "_2" for name in animals_name]
     columns.append(cecha)
     data_metrics = data[columns]
-
     data_dict = data_metrics.to_dict('list')
     keys = list(data_dict.keys())
 
@@ -198,13 +171,7 @@ def count_metric_ranking_two(data, animals_dict, cecha, warunek, cecha2, warunek
                     if option in str(row[key]):
                         metric_dict[name].append("Protopnet")
 
-    # print(metric_dict)
-
-
-
     metric_ranking = {name : [] for name in animals_name}
-    # # print(krokodyl_list)
-    # # make statistic for krokodyl_list
     for key, l in metric_dict.items():
         temp_dict = {"ACE": 0, "RISE": 0, "Protopnet": 0}
         for ex in l:
@@ -216,6 +183,4 @@ def count_metric_ranking_two(data, animals_dict, cecha, warunek, cecha2, warunek
                 temp_dict["Protopnet"] += 1
 
         metric_ranking[key] = temp_dict
-
-    # print(metric_ranking)
     return metric_ranking
